@@ -1,0 +1,44 @@
+
+@charset "utf-8";
+/*-------------------------------------------------------------------
+	파일정의 : layout
+	작성날짜 : 2021-02-01 장병주
+	참고사항 : 이 파일은 layout 만 정의한다.
+	분류순서 : 기본정책 > 유틸리티 > 사용자정의(컬러, 폰트, 보더, 간격 등)
+	속성순서 : 표시 > 위치 > 넘침/흐름 > 크기/간격 > 박스모양 > 폰트/정렬 > 기타
+-------------------------------------------------------------------*/
+body {
+    background: #fff;
+    font-family: 'Roboto', 'Noto Sans KR', '맑은고딕', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+header {
+    background: #000;
+    color: #fff;
+    padding: 30px;
+}
+footer{
+    padding: 20px;
+    background: #f9f9f9;
+}
+
+main {
+    padding: 100px 0 200px;
+}
+
+.btn_area {
+    margin-top: 30px;
+    font-size: 16px;
+}
+.btn_area a {
+    display: inline-block;
+    border-bottom: 1px solid #000;
+}
+.btn_area a + a{
+    margin-left: 20px;
+
+}
